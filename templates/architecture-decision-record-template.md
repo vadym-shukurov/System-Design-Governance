@@ -17,9 +17,9 @@ This is the standard template for documenting significant technical decisions. E
 
 ### 2. Decision Drivers
 *What are the "Must-Haves" for this solution?*
-* (e.g., P99 latency must remain < 100ms)
-* (e.g., Must support multi-region deployment)
-* (e.g., Developer effort must not exceed 2 sprints)
+* (P99 latency must remain < 100ms)
+* (Must support multi-region deployment)
+* (Developer effort must not exceed 2 sprints)
 
 ### 3. Considered Options
 *What other paths did we explore?*
