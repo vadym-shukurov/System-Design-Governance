@@ -46,12 +46,13 @@ export class ProcessOrderService {
   }
 }
 
-**By enforcing this pattern, we ensure:**
 
-Testability: Service Objects are easily mocked. Domain Entities can be unit tested without a database.
+## **By enforcing this pattern, we ensure:**
 
-Scalability: As the system grows, we add new Services rather than bloating existing Models.
+* Testability: Service Objects are easily mocked. Domain Entities can be unit tested without a database.
 
-Clarity: A developer can look at the /app/services folder and see exactly what the system does (UpdateSubscription, CancelOrder, GenerateInvoice).
+* Scalability: As the system grows, we add new Services rather than bloating existing Models.
+
+* Clarity: A developer can look at the /app/services folder and see exactly what the system does (UpdateSubscription, CancelOrder, GenerateInvoice).
 
 
