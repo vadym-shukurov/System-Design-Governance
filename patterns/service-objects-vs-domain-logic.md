@@ -8,7 +8,7 @@ In high-traffic systems, the "Fat Model" or "Fat Controller" anti-pattern leads 
 
 ## 2. When to Use a Service Object
 We move logic into a Service Object if it meets any of these criteria:
-* The action is complex (e.g., calculating dynamic pricing based on multiple external factors).
+* The action is complex (calculating dynamic pricing based on multiple external factors).
 * The action reaches across multiple domain boundaries.
 * The action interacts with external dependencies (sending an email via SendGrid, charging a card via Stripe).
 * The action has multiple steps that must be wrapped in a single database transaction.
