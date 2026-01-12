@@ -47,7 +47,7 @@ export class ProcessOrderService {
 }
 ```
 
-## **By enforcing this pattern, we ensure:**
+## 4. By enforcing this pattern, we ensure:
 
 * Testability: Service Objects are easily mocked. Domain Entities can be unit tested without a database.
 
