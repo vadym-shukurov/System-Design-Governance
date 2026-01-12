@@ -37,3 +37,13 @@ class StripeAdapter implements PaymentGateway {
     });
   }
 }
+
+## **Benefits for Scaling**
+* Interchangeability: We can swap Stripe for Adyen or PayPal by only writing a new Adapter. The core business logic remains untouched.
+
+* Testability: We can mock our own PaymentResult entity instead of trying to replicate complex vendor objects.
+
+* Resilience: If a vendor introduces a breaking change, we fix it in one class (the Adapter), not in fifty.
+
+## **Governance Rule**
+No external SDK objects or vendor-specific data structures may pass through a Service Object into the Domain Layer.
