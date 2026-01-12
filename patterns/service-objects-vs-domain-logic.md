@@ -3,7 +3,7 @@
 In high-traffic systems, the "Fat Model" or "Fat Controller" anti-pattern leads to a **Big Ball of Mud**. To maintain a clean, testable architecture, we enforce a strict separation between **Domain Entities** and **Service Objects**.
 
 ## 1. The Core Philosophy
-* **Domain Entities (The "What"):** Represent the state and intrinsic behavior of a single object (e.g., an `Invoice` or a `User`).
+* **Domain Entities (The "What"):** Represent the state and intrinsic behavior of a single object (an `Invoice` or a `User`).
 * **Service Objects (The "How"):** Orchestrate complex actions that involve multiple entities, external APIs, or side effects (e.g., `ProcessPaymentService` or `OnboardUserAccount`).
 
 ## 2. When to Use a Service Object
