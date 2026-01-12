@@ -45,7 +45,7 @@ export class ProcessOrderService {
     });
   }
 }
-
+```
 
 ## **By enforcing this pattern, we ensure:**
 
