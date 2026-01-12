@@ -37,6 +37,7 @@ class StripeAdapter implements PaymentGateway {
     });
   }
 }
+```
 
 ## **Benefits for Scaling**
 * Interchangeability: We can swap Stripe for Adyen or PayPal by only writing a new Adapter. The core business logic remains untouched.
